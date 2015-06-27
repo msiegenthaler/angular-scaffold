@@ -6,6 +6,13 @@
   "scripts": {
     "postinstall": "npm install browserify@4.2.3 gulp-header"
   },
+  "dependencies": {
+    "angular": "^1.4.1",
+    "angular-bootstrap": "^0.12.0",
+    "angular-route": "^1.4.1",
+    "bootstrap": "^3.3.5"
+  },
+  "browserify-shim": {},
   "devDependencies": {
     "browserify-shim": "^3.6.0",
     "coffeeify": "^0.7.0",
@@ -31,11 +38,5 @@
     "vinyl-source-stream": "^0.1.1",
     "watchify": "^0.10.2",
     "yargs": "^1.2.2"
-  },
-  "browser": {
-    "angular": "./bower_components/angular/angular.min.js",
-    "angular-ui-bootstrap": "./bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js",
-    "angular-route": "./bower_components/angular-route/angular-route.min.js"
-  },
-  "browserify-shim": {}
+  }
 }
