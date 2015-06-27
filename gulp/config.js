@@ -16,7 +16,8 @@ global.config = {
       templatesHTML: SRC_FOLDER + '/modules/**/*.html',
       templatesCompiled: TMP_FOLDER,
       livereload: [BUILD_FOLDER + '/**/*', '!' + BUILD_FOLDER + '/assets/**/*'],
-      modules: './' + SRC_FOLDER + '/modules/index.coffee'
+      modules: './' + SRC_FOLDER + '/modules/index.coffee',
+      node_modules: './' + "node_modules"
     },
     dest: {
       build: {
