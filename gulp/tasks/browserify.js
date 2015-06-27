@@ -6,7 +6,7 @@ var source = require('vinyl-source-stream');
 var browserifyShim = require('browserify-shim');
 var coffeeify = require('coffeeify');
 
-module.exports = gulp.task('browserify', function () {
+module.exports = gulp.task('browserify', ['templates'], function () {
   return browserify({
       entries: [config.paths.src.modules],
       extensions: ['.coffee']

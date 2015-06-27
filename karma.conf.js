@@ -17,7 +17,7 @@ module.exports = function (config) {
     files: [
       'build/bundle.js',
       'node_modules/angular-mocks/angular-mocks.js',
-      'test/**/*Spec.js'
+      'tmp/test/**/*Spec.js'
     ],
 
 

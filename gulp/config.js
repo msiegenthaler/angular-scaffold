@@ -14,12 +14,16 @@ global.config = {
       stylesGlob: SRC_FOLDER + '/styles/**/*.less',
       templates: SRC_FOLDER + '/modules/**/*.html',
       templatesHTML: SRC_FOLDER + '/modules/**/*.html',
-      templatesCompiled: TMP_FOLDER,
+      templatesCompiled: TMP_FOLDER + '/templates',
       livereload: [BUILD_FOLDER + '/**/*', '!' + BUILD_FOLDER + '/assets/**/*'],
       modules: './' + SRC_FOLDER + '/modules/index.coffee',
       node_modules: './' + "node_modules"
     },
+    test: {
+      scripts: './' + 'test'
+    },
     dest: {
+      test: TMP_FOLDER + '/test',
       build: {
         styles: BUILD_FOLDER,
         scripts: BUILD_FOLDER,
