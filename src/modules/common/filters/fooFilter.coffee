@@ -2,4 +2,4 @@
 
 ### @ngInject ###
 module.exports = ->
-  (input) ->
+  (input) -> input + "!"
