@@ -22,7 +22,7 @@ Usage
     
       gulp
     
-- You may use the live-reload browser plugin to speed up the development workflow (see http://livereload.com/)
+- You may use the live-reload browser plugin to speed up the development workflow (see http://livereload.com/extensions/)
 
 - To run the unit test continuously
 
